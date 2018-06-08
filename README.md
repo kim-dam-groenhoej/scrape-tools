@@ -1,2 +1,2 @@
 # scrape-tools
-Node.js tools to scrape in javascript
+Node.js tools with puppetear to scrape data on web in javascript
