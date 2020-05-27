@@ -116,7 +116,7 @@ async function run(username,password) {
     const page = await browser.newPage();
   
     await page.goto(
-      'https://tacout.dk/maerker/511-tactical/', {"waitUntil" : "networkidle2"}
+      'https://domain.dk/maerker/511-tactical/', {"waitUntil" : "networkidle2"}
     );
 
 
