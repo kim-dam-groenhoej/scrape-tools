@@ -322,7 +322,7 @@ async function run(username,password) {
 
   async function GetProductsData(page, browser) {
     await page.goto(
-      'https://tacout.dk/typo3/mod.php?&M=web_list&id=474&table=tx_tcshop_domain_model_product&imagemode=1&pointer=0',
+      'https://domain.dk/typo3/mod.php?&M=web_list&id=474&table=tx_tcshop_domain_model_product&imagemode=1&pointer=0',
        {"waitUntil" : "networkidle2"}
     );
 
